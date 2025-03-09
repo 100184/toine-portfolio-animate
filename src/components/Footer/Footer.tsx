@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0">
             <h3 className="text-lg font-serif font-semibold text-white mb-2">Toine Louis Heijstek</h3>
             <div className="flex flex-col md:flex-row gap-2 md:gap-4 text-sm text-white/70">
-              <a href="mailto:email@example.com" className="hover:text-accent-red transition-colors">
+              <a href="mailto:toineheijstek@gmail.com" className="hover:text-accent-red transition-colors">
                 email@example.com
               </a>
               <span className="hidden md:inline">|</span>
-              <a href="tel:+1234567890" className="hover:text-accent-red transition-colors">
+              <a href="tel:06 13633623" className="hover:text-accent-red transition-colors">
                 +123 456 7890
               </a>
             </div>
