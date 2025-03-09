@@ -1,10 +1,14 @@
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AnimatedSection from "../AnimatedSection";
 
 const AboutSection: React.FC = () => {
   const [imageError, setImageError] = useState(false);
   
+  useEffect(() => {
+    console.log("AboutSection rendered - v1");
+  }, []);
+
   return (
     <AnimatedSection id="about" className="max-w-4xl mx-auto">
       <h2 className="section-title">Over Mij</h2>
@@ -31,7 +35,7 @@ const AboutSection: React.FC = () => {
         <div className="md:col-span-3 flex flex-col justify-center">
           <div className="prose prose-invert max-w-none">
             <p className="text-white/80 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique.
+              Dit is een test voor het bijwerken van de content. Als je deze tekst ziet, dan werken de updates.
             </p>
             <p className="text-white/80 mb-4">
               Nunc ut sem vitae risus tristique posuere. Aliquam erat volutpat. Fusce tincidunt quis nibh eu fermentum. Curabitur vitae nunc sed velit dignissim sodales ut eu. Donec id elit non mi porta gravida at eget metus.
