@@ -12,22 +12,22 @@ const projects = [
   },
   {
     id: 2,
-    title: "E-commerce Platform",
-    description: "Een volledig functioneel e-commerce platform met productcatalogus en betalingssysteem.",
+    title: "Muziek Magazine",
+    description: "Een Muziek magazine in een groep gemaakt van 2. Dit project werkt niet meer helemaal, maar het design en een paar functies werken nog.",
     image: "/placeholder.svg",
     url: "#"
   },
   {
     id: 3,
-    title: "Restaurant Website",
-    description: "Een elegante website voor een lokaal restaurant met online reserveringssysteem.",
+    title: "Gezond eten App",
+    description: "Een mooie gemaakte app gemaakt in een team van 3. Op deze app kan je allemaal recepten bekijken die gezond zijn en gemaakt zijn door andere gebruikers.",
     image: "/placeholder.svg",
     url: "#"
   },
   {
     id: 4,
-    title: "Dashboard App",
-    description: "Een interactief dashboard voor data visualisatie met real-time updates.",
+    title: "Toetsweek over Space ",
+    description: "Het eindresultaat van de toetsweek over space.",
     image: "/placeholder.svg",
     url: "#"
   }
