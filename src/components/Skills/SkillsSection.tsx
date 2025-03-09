@@ -65,7 +65,9 @@ const SkillsSection: React.FC = () => {
               <li>UI/UX design principles</li>
               <li>Backend development met Node.js</li>
               <li>Database management en optimalisatie</li>
-              <li>Responsive design technieken</li>
+              <li>Responsive design technieken</li> 
+              <li>Beter begrijpen hoe php werkt</li> 
+              <li>beginnen met Python code leren</li> 
             </ul>
             <p className="text-white/80 mt-4">
               Door blijvend te leren en nieuwe technologieën te verkennen, kan ik professioneel blijven groeien en betere oplossingen ontwikkelen voor complexe problemen.
