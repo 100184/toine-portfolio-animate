@@ -10,7 +10,7 @@ const AboutSection: React.FC = () => {
         <div className="md:col-span-2">
           <div className="rounded-xl overflow-hidden h-full">
             <img 
-              src="/placeholder.svg" 
+              src="/toineportofoto.png" 
               alt="Toine Louis Heijstek" 
               className="h-full w-full object-cover"
             />
