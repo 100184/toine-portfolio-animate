@@ -13,6 +13,10 @@ const AboutSection: React.FC = () => {
               src="/toineportofoto.png" 
               alt="Toine Louis Heijstek" 
               className="h-full w-full object-cover"
+              onError={(e) => {
+                console.error("Error loading image:", e);
+                e.currentTarget.src = "/placeholder.svg";
+              }}
             />
           </div>
         </div>
