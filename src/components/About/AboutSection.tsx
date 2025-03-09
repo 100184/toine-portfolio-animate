@@ -1,23 +1,31 @@
 
-import React from "react";
+import React, { useState } from "react";
 import AnimatedSection from "../AnimatedSection";
 
 const AboutSection: React.FC = () => {
+  const [imageError, setImageError] = useState(false);
+  
   return (
     <AnimatedSection id="about" className="max-w-4xl mx-auto">
       <h2 className="section-title">Over Mij</h2>
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
         <div className="md:col-span-2">
-          <div className="rounded-xl overflow-hidden h-full">
-            <img 
-              src="/toineportofoto.png" 
-              alt="Toine Louis Heijstek" 
-              className="h-full w-full object-cover"
-              onError={(e) => {
-                console.error("Error loading image:", e);
-                e.currentTarget.src = "/placeholder.svg";
-              }}
-            />
+          <div className="rounded-xl overflow-hidden h-full bg-light-gray/10">
+            {imageError ? (
+              <div className="flex items-center justify-center h-full p-4 text-white/60">
+                <p>Afbeelding niet beschikbaar</p>
+              </div>
+            ) : (
+              <img 
+                src="/profile-photo.jpg" 
+                alt="Toine Louis Heijstek" 
+                className="h-full w-full object-cover"
+                onError={(e) => {
+                  console.error("Error loading image path:", e.currentTarget.src);
+                  setImageError(true);
+                }}
+              />
+            )}
           </div>
         </div>
         <div className="md:col-span-3 flex flex-col justify-center">
