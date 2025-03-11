@@ -39,7 +39,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onIntroComplete }) => {
             introState !== "initial" && "animate-photo-entry"
           )}>
             <img 
-              src="/fotoporto.jpg" 
+              src="/toineportofoto.png" 
               alt="Toine Louis Heijstek" 
               className="h-full w-full object-cover"
             />
