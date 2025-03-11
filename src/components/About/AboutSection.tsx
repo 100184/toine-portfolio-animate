@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
               </div>
             ) : (
               <img 
-                src="/toineportofoto.png" 
+                src="/fotoporto.jpg" 
                 alt="Toine Louis Heijstek" 
                 className="h-full w-full object-cover"
                 onError={(e) => {
