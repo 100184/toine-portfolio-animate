@@ -35,7 +35,7 @@ const AboutSection: React.FC = () => {
         <div className="md:col-span-3 flex flex-col justify-center">
           <div className="prose prose-invert max-w-none">
             <p className="text-white/80 mb-4">
-              Dit is een test voor het bijwerken van de content. Als je deze tekst ziet, dan werken de updates.
+             Ik ben Toine Louis Heijstek. Ik 18 jaar en zit op 
             </p>
             <p className="text-white/80 mb-4">
               Nunc ut sem vitae risus tristique posuere. Aliquam erat volutpat. Fusce tincidunt quis nibh eu fermentum. Curabitur vitae nunc sed velit dignissim sodales ut eu. Donec id elit non mi porta gravida at eget metus.
