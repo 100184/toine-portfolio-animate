@@ -41,7 +41,7 @@ const AboutSection: React.FC = () => {
               Ik ben geboren op 9 Maart 2007. Ik woon in Vlaardingen en ik heb op het Mavo Schravenlant XL mijn mavo diploma techniek gehaald. Ik had nog niet eerder gecoded, dus de inschrijving van het GLR, was de eerste keer dat ik ging coderen.
             </p>
             <p className="text-white/80">
-              Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna.
+              Nog overige informatie over mijzelf. Met mijn talen ben ik heel goed in Engels en ik ben de laatste 100 dagen al bezig met Zweeds leren. Ik heb ook in de zomervakantie van 2024 mijn rijbewijs gehaald. Ik vind mijzelf creatief, want ik hou van bedenken van een idee.
             </p>
           </div>
         </div>
