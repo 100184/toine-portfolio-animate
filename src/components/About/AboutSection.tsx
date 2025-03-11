@@ -38,7 +38,7 @@ const AboutSection: React.FC = () => {
              Ik ben Toine Louis Heijstek. Ik 18 jaar en zit op de opleiding Software Developing op het Grafisch Lyceum Rotterdam.
             </p>
             <p className="text-white/80 mb-4">
-              Nunc ut sem vitae risus tristique posuere. Aliquam erat volutpat. Fusce tincidunt quis nibh eu fermentum. Curabitur vitae nunc sed velit dignissim sodales ut eu. Donec id elit non mi porta gravida at eget metus.
+              Ik ben geboren op 9 Maart 2007. Ik woon in Vlaardingen en ik heb op het Mavo Schravenlant XL mijn mavo diploma techniek gehaald. Ik had nog niet eerder gecoded, dus de inschrijving van het GLR, was de eerste keer dat ik ging coderen.
             </p>
             <p className="text-white/80">
               Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna.
