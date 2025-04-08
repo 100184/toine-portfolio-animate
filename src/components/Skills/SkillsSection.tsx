@@ -67,7 +67,8 @@ const SkillsSection: React.FC = () => {
               <li>Database management en optimalisatie</li>
               <li>Responsive design technieken</li> 
               <li>Beter begrijpen hoe php werkt</li> 
-              <li>beginnen met Python code leren</li> 
+              <li>Beginnen met Python code leren</li> 
+              <li>Meer leren over API en hoe het nou eigenlijk werkt</li>
             </ul>
             <p className="text-white/80 mt-4">
               Door blijvend te leren en nieuwe technologieën te verkennen, kan ik professioneel blijven groeien en betere oplossingen ontwikkelen voor complexe problemen.
