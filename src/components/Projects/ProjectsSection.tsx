@@ -6,7 +6,7 @@ const projects = [
   {
     id: 1,
     title: "Ziekenhuis schermen",
-    description: "Een website waarop je 5 animaties ziet voor mensen in het ziekenhuis.",
+    description: "Een website waarop je 5 animaties ziet voor mensen in het ziekenhuis. Dit is mijn meest recente beroeps opdracht.",
     image: "/superman.png",
     url: "https://100207.stu.sd-lab.nl/BeroepsZiekenhuis/homepage/homepage.html?classId=fc88c06a-8c99-40f6-82e7-a32694394b39&assignmentId=de56cb20-e590-4ff2-b9c7-e3354c704bbb&submissionId=95c7b605-76f0-0a0b-2abe-9496849b4ac9"
   },
