@@ -15,22 +15,15 @@ const projects = [
     title: "Muziek Magazine",
     description: "Een Muziek magazine in een groep gemaakt van 2. Dit project werkt niet meer helemaal, maar het design en een paar functies werken nog.",
     image: "/placeholder.svg",
-    url: "#"
+    url: "https://100187.stu.sd-lab.nl/beroeps2/musicmagnetmagazine/register.php?classId=fc88c06a-8c99-40f6-82e7-a32694394b39&assignmentId=f5050ad5-79ef-4709-84b6-1df0e5433102&submissionId=849d0ef7-6fdf-d532-37f8-5a9a392d2e07"
   },
   {
     id: 3,
     title: "Gezond eten App",
     description: "Een mooie gemaakte app gemaakt in een team van 3. Op deze app kan je allemaal recepten bekijken die gezond zijn en gemaakt zijn door andere gebruikers.",
     image: "/placeholder.svg",
-    url: "#"
+    url: "https://088484.stu.sd-lab.nl/Ontkoking/php/index.php?classId=fc88c06a-8c99-40f6-82e7-a32694394b39&assignmentId=affcf9f4-3056-4ecf-816e-6e4e2756015f&submissionId=c7da4641-982b-0968-bb5b-2bc91f55dbe1"
   },
-  {
-    id: 4,
-    title: "Toetsweek over Space ",
-    description: "Het eindresultaat van de toetsweek over space.",
-    image: "/placeholder.svg",
-    url: "#"
-  }
 ];
 
 const ProjectsSection: React.FC = () => {
